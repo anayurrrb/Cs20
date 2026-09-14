@@ -2,7 +2,7 @@ package SkillBuilders;
 
 import java.util.Scanner;
 
-public class Rectangle 
+public class Rectangle
 {
 
 	public static void main(String[] args) 
@@ -10,6 +10,8 @@ public class Rectangle
 		//Declare Variables
 		int length;
 		int width;
+		int area;
+		int perimeter;
 		
 		//Create a Scanner object
 		Scanner userinput = new Scanner(System.in);
@@ -26,12 +28,26 @@ public class Rectangle
 		//Get the length value from the user
 		length = userinput.nextInt();
 		
-		//Anaya
-		
+		//Calculate the parameter
 		
 		//Display the width and length on the console
 		System.out.println("The width is: " + width);
-		System.out.print("The width is: " + length);
+		
+		System.out.println("The width is: " + length);
+		
+		//calculate the area
+		area = length * width;
+		
+		//Display area on the screen
+		System.out.println("Area = "+ area); 
+		
+		//calculate the perimeter
+		perimeter = (2 * length + 2 * width);
+		
+		//Display the perimeter on the screen
+		System.out.println("perimeter = "+ perimeter); 
+
+		
 	}
 
 }

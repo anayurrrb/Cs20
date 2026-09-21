@@ -44,6 +44,7 @@ public class Rectangle
 		//calculate the perimeter
 		perimeter = (2 * length + 2 * width);
 		
+		
 		//Display the perimeter on the screen
 		System.out.println("perimeter = "+ perimeter); 
 

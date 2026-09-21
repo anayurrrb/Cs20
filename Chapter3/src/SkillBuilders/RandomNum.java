@@ -1,3 +1,18 @@
+/*
+
+Program: RandomNum.java          Last Date of this Revision: September 21, 2026
+
+Purpose: An application that takes users min and max number before spitting out a random number between that limit
+
+*/
+
+
+
+/* Screen Dump
+ 
+Paste the output of your code here
+ 
+ */
 package SkillBuilders;
 
 import java.util.Scanner;
@@ -34,3 +49,23 @@ public class RandomNum {
 	}
 
 }
+
+/*Screen Dump
+
+Enter the min number: 
+7
+Enter the max number: 
+14
+Random number: 13
+
+
+Enter the min number: 
+9
+Enter the max number: 
+30
+Random number: 12
+
+
+
+
+*/

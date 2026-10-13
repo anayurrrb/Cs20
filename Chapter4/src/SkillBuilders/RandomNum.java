@@ -21,6 +21,7 @@ public class RandomNum {
 
 	public static void main(String[] args) 
 	{
+		
 		//Declare the min and max variables
 		int min, max;
 		

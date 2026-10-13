@@ -5,7 +5,8 @@ import java.util.Scanner;
 public class Delivery {
 
 	public static void main(String[] args) {
-	
+		// TODO Auto-generated method stub
+		
 		 // open the scanner
         Scanner in = new Scanner(System.in);
         

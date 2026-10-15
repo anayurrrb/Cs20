@@ -36,7 +36,8 @@ public class Change {
 		int pennies = money;
 		
 		//display the result
-		System.out.println("The minimum number of coins is: ");
+		int totalCoins = quarters + dimes + nickels + pennies;
+		System.out.println("The minimum number of total coins is: " + totalCoins);
 		System.out.println("quarters: " + quarters);
 		System.out.println("dimes: " + dimes);
 		System.out.println("nickels: " + nickels);
@@ -50,19 +51,29 @@ public class Change {
 
 /*Screen Dump
 
+--- Test Case 1: Large Amount ---
 enter the change in cents: 674
-The minimum number of coins is: 
+The minimum number of total coins is: 30
 quarters: 26
 dimes: 2
 nickels: 0
 pennies: 4
 
+--- Test Case 2: Mid Range Amount ---
 enter the change in cents: 78
-The minimum number of coins is: 
+The minimum number of total coins is: 6
 quarters: 3
 dimes: 0
 nickels: 0
 pennies: 3
+
+--- Test Case 3: Small Amount / Edge Case ---
+enter the change in cents: 12
+The minimum number of total coins is: 3
+quarters: 0
+dimes: 1
+nickels: 0
+pennies: 2
 
 
 */

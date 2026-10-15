@@ -17,26 +17,24 @@ public class Grade {
 		Scanner input = new Scanner(System.in);
 		
 		int percentage;
-		char letterGrade;
 		
-		//prompt user for the percentage
+		//prompt user for the percentage they got
 		System.out.print("Enter the percentage: ");
 		percentage = input.nextInt();
 		
 		//determine the corresponding letter grade
+		System.out.print("The corresponding letter grade is: ");
+		
 		if(percentage >= 90 && percentage <= 100) {
-			letterGrade = 'A';
+			System.out.println("A");
 		}else if(percentage >= 80 && percentage <= 89) {
-			letterGrade = 'B';
+			System.out.println("B");
 		}else if(percentage >= 70 && percentage <= 79) {
-			letterGrade = 'C';
+			System.out.println("C");
 		}else if (percentage >= 60 && percentage <= 69) {
-			letterGrade = 'D';
+			System.out.println("D");
 		}else { 
-			letterGrade = 'F';
-			
-		// Display the result
-	    System.out.println("The corresponding letter grade is: " + letterGrade);
+			System.out.println("F");
 
 				
 		}
@@ -46,7 +44,16 @@ public class Grade {
 
 /*Screen Dump
 
+--- Test Case 1: Excellent Grade (A) ---
+Enter the percentage: 95
+The corresponding letter grade is: A
 
+--- Test Case 2: Average Grade (C) ---
+Enter the percentage: 74
+The corresponding letter grade is: C
 
+--- Test Case 2: Failing Grade (F) ---
+Enter the percentage: 35
+The corresponding letter grade is: F
 
 */

@@ -50,14 +50,19 @@ public class Printing {
 
 /*Screen Dump
 
+--- Test Case 1: Small batch ---
+Enter the number of copies to be printed: 50
+Price per copy is: $0.3
+Total cost is: $15.0
+
+--- Test Case 2: Medium batch ---
+Enter the number of copies to be printed: 200
+Price per copy is: $0.28
+Total cost is: $56.00000000000001
+
+--- Test Case 3: Bulk batch ---
 Enter the number of copies to be printed: 1001
 Price per copy is: $0.25
 Total cost is: $250.25
-
-
-Enter the number of copies to be printed: 678
-Price per copy is: $0.27
-Total cost is: $183.06
-
 
 */
